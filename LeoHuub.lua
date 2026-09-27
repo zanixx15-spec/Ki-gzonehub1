@@ -50,18 +50,7 @@ local MainWindow = Rayfield:CreateWindow({
       Invite = "noinvitelink",
       RememberJoins = true
    },
-
-   KeySystem = true,
-   KeySettings = {
-      Title = "KingZoneHub",
-      Subtitle = "Key System",
-      Note = "Key for tg@Leogametop",
-      FileName = "Key",
-      SaveKey = true,
-      GrabKeyFromSite = false,
-      Key = {"Hello,Zero,Hero"}
-   }
-})
+    })
 
 -- Tab များ ဖန်တီးခြင်း
 local MainTab = MainWindow:CreateTab("Main", 4483362458)
